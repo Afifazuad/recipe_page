@@ -1,5 +1,7 @@
 body{
     background-color: #f3e5d7;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
@@ -24,15 +26,18 @@ body{
     gap: 32px;
 }
 
-.Title {
+.Title, .preparation-time, .ingredients, .instructions, .Nutrition, .attribution{
     border: 1px solid black;
 }
+
 
 .Title h1{
     font-size: 40px;
     font-family: 'young-serif';
     font-weight: regular;
     word-spacing: 0px;
+    line-height: 100%;
+    margin: 0px;
 }
 
 .Title p{
@@ -40,21 +45,32 @@ body{
     font-family: 'outfit';
     font-weight: regular;
     word-spacing: 0px;
+    line-height: 150%;
+    margin: 0px;
 }
 
 .preparation-time {
     background-color: #fff7fb;
     border-radius: 12px;
     padding: 24px;
+    gap: 16px;
 }
 
 .header-preparation {
     color: #7a284e;
     font-family: 'outfit';
+    font-weight: semi-bold;
+    font-size: 20px;
+    line-height: 100%;
+    word-spacing: 0px;
+    margin: 0px;
 }
 
 ul{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    margin: 0px;
+    padding-left: 20px;
+    gap: 8px;
 }
 
 h2{
